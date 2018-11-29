@@ -1,6 +1,6 @@
 import 'colors'
 import Assert from '../../lib/assert'
-import completeStringWithCharacters from './correction'
+//import completeStringWithCharacters from './correction'
 
 console.log('String > exo6'.blue)
 console.log(`Compléter une chaîne de caractères jusqu'à une certaine longueur.
@@ -15,7 +15,9 @@ console.log('')
  * - Write your own correction below to make the tests work
  */
 
-
+const completeStringWithCharacters= (string, letter, number) => {
+    return string.padEnd(number, letter);
+}
 /**
  * test
  */

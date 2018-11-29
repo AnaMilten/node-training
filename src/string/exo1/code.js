@@ -1,6 +1,6 @@
 import 'colors'
 import Assert from '../../lib/assert'
-import convertToLowerCase from './correction'
+//import convertToLowerCase from './correction'
 
 console.log('String > exo1'.blue)
 console.log('Passer une chaîne de caractères en minuscule'.green)
@@ -15,6 +15,13 @@ console.log('')
  */
 
 
+
+const convertToLowerCase= (string) => {
+    return string.toLowerCase()
+};
+
+
+convertToLowerCase('ma super Chaîne de Caractères')
 /**
  * test
  */

@@ -1,10 +1,10 @@
 import 'colors'
 import Assert from '../../lib/assert'
-import {
+/* import {
     concat3StringsVersion1,
     concat3StringsVersion2,
     concat3StringsVersion3
-} from './correction'
+} from './correction' */
 
 console.log('String > exo5'.blue)
 console.log('Concatener 3 chaînes de caractères (de 3 façons différentes)'.green)
@@ -18,7 +18,17 @@ console.log('')
  * - Write your own correction below to make the tests work
  */
 
+const concat3StringsVersion1 = (string1, string2, string3) => {
+    return `${string1}${string2}${string3}`
+}
 
+const concat3StringsVersion2 = (string1, string2, string3) => {
+    return (string1 + string2 + string3)
+}
+
+const concat3StringsVersion3 = (string1, string2, string3) => {
+    return string1.concat(string2,string3);
+}
 /**
  * test
  */

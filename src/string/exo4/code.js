@@ -1,6 +1,6 @@
 import 'colors'
 import Assert from '../../lib/assert'
-import getSubStringPosition from './correction'
+//import getSubStringPosition from './correction'
 
 console.log('String > exo4'.blue)
 console.log('Rechercher une sous-chaîne dans une chaîne de caractères et indiquer sa position'.green)
@@ -13,7 +13,9 @@ console.log('')
  * - Remove import of correction
  * - Write your own correction below to make the tests work
  */
-
+const getSubStringPosition = (string, a) => {
+    return string.indexOf(a);
+}
 
 /**
  * test
