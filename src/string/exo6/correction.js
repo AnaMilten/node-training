@@ -1,4 +1,4 @@
-const completeStringWithCharacters = (str, length, char) => {
+const completeStringWithCharacters = (str, char, length) => {
     return str.padEnd(length, char)
 }
 
