@@ -1,6 +1,6 @@
 import 'colors'
 import Assert from '../../lib/assert'
-import strlen from './correction'
+//import strlen from './correction'
 
 console.log('String > exo8'.blue)
 console.log('Créer une fonction qui retourne la longueur d\'une chaîne de caractères.'.green)
@@ -17,7 +17,18 @@ console.log('')
  * - Write your own correction below to make the tests work
  */
 
-
+const strlen = (string) => {
+    /* let i = 0;
+    string.split('').map((item) => item=i++)
+    console.log(i);
+    return i; */
+    let char = 0    
+    while (typeof string[char] !== 'undefined') {
+    char += 1;
+    } 
+    console.log(char);
+    return char;
+}
 /**
  * test
  */

@@ -1,6 +1,6 @@
 import 'colors'
 import Assert from '../../lib/assert'
-import linkify from './correction'
+//import linkify from './correction'
 
 console.log('String > exo7'.blue)
 console.log('Créer une balise HTML "a" avec ses attributs'.green)
@@ -14,7 +14,9 @@ console.log('')
  * - Write your own correction below to make the tests work
  */
 
-
+const linkify = (url, att) => {
+    return `<a href="${url}">${att}</a>`
+}
 /**
  * test
  */

@@ -1,6 +1,6 @@
 import 'colors'
 import Assert from '../../lib/assert'
-import { copyWithFor, copyWithForEach, copyWithMap } from './correction'
+//import { copyWithFor, copyWithForEach, copyWithMap } from './correction'
 
 console.log('Array > exo1'.blue)
 console.log('Copier un tableau'.green)

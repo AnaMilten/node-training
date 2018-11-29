@@ -1,6 +1,6 @@
 import 'colors'
 import Assert from '../../lib/assert'
-import ucfirst from './correction'
+//import ucfirst from './correction'
 
 console.log('String > exo8'.blue)
 console.log('Créer une fonction qui passe le première caractère d\'une chaîne en majuscule'.green)
@@ -24,7 +24,13 @@ console.log('')
  * - Write your own correction below to make the tests work
  */
 
-
+const ucfirst = (string, number) => {
+    let char = string.charAt(number).toUpperCase();
+    console.log(char);
+    let rest = string.slice(1, string.length);
+    console.log(rest);
+    return char + rest;
+}
 /**
  * test
  */
